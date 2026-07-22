@@ -17,5 +17,5 @@ LLM 维护的结构化 Wiki，所有知识页存放在此。
 
 - 目录名和文件名尽可能用中文
 - 术语型专名可保留英文，如 `AI Agent.md`
-- 使用 Obsidian wikilink：`[[Knowledge/wiki/概念/xxx]]`
+- 使用 Obsidian wikilink 格式引用页面
 - 页面添加 frontmatter 标注类型和状态

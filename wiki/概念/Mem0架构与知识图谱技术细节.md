@@ -176,5 +176,5 @@ Platform 中 `add()` 的默认行为：
 
 ## 相关页面
 
-- [[Knowledge/wiki/概念/LLM记忆层对比]]
-- [[Knowledge/wiki/概念/知识图谱构建方法]]
+- 待创建：LLM记忆层对比
+- 待创建：知识图谱构建方法

@@ -20,10 +20,11 @@
 - 修复断链：README.md 中的示例链接、概念页中的待创建页面引用
 - 运行体检脚本 verify_wiki.py：问题已全部修复（0 broken links, 0 missing index）
 
----
+### 深入 Mem0 Add 模式与冲突处理
 
-## 当前待办 / 后续方向
-
-- [ ] 在 Obsidian 中打开此 vault
-- [ ] 继续完善 Mem0 相关页面（LLM记忆层对比、知识图谱构建方法）
-- [ ] 添加更多资料
+- 调研 Mem0 的 add() 默认 ADD-only 模式 vs update() 显式更新模式的选择问题
+- 深入分析 DEFAULT_UPDATE_MEMORY_PROMPT 的 ADD/UPDATE/DELETE/NONE 四选一决策逻辑
+- 从源码确认：LLM 驱动的语义去重是唯一的冲突检测手段，无独立规则引擎
+- 确认 Platform 和 OSS 的冲突处理逻辑相同
+- **新增概念页**：[[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制|Mem0 的 Add 模式与冲突处理机制]]
+- 更新 wiki/index.md

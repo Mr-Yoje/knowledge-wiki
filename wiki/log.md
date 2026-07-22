@@ -38,4 +38,11 @@
 - 收录 LangSmith、OpenAI Evals 等评测平台信息
 - 分析当前趋势（FC 标准化、动态环境、安全评测崛起）与挑战（成本高、复现难、数据污染）
 - **新增概念页**：[[Knowledge/wiki/概念/AgentEval评估全景|Agent Eval 评估全景]]
+
+### 补充参考文章 + searxng 修复
+
+- 发现 searxng 实际运行在 **127.0.0.1:8080**（而非 4000），已定位并确认可用
+- 根据参考文章（warm3snow《Agent Eval 最佳实践》），提取核心三层架构体系、DeepEval 代码实践、pass@k 指标选择策略、生产采样与成本控制方案
+- **新增资料页**：[[Knowledge/wiki/资料/AgentEval最佳实践|Agent Eval 最佳实践指南]]
+- 更新概念页：新增 DeepEval 框架介绍和参考资料链接
 - 更新 wiki/index.md

@@ -12,6 +12,7 @@
 ## 资料
 
 - [[Knowledge/wiki/资料/原始资料层说明|原始资料层说明]] — Knowledge Wiki 的 source/ 目录约定说明
+- [[Knowledge/wiki/资料/AgentEval最佳实践|Agent Eval 最佳实践指南]] — 从 Benchmark 到生产监控的完整落地指南（参考 Anthropic + DeepEval 实践）
 
 ## 实体
 

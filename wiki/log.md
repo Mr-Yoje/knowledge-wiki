@@ -28,3 +28,14 @@
 - 确认 Platform 和 OSS 的冲突处理逻辑相同
 - **新增概念页**：[[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制|Mem0 的 Add 模式与冲突处理机制]]
 - 更新 wiki/index.md
+
+### Agent Eval 评估体系调研
+
+- 系统调研 Agent 评估的 Benchmark、框架、通用指标和评测流程
+- 覆盖：GAIA、AgentBench、SWE-bench、BFCL、ToolBench、WebArena、MINT 等核心 Benchmark
+- 梳理四大评测维度：工具调用、多步规划、环境交互、安全鲁棒
+- 总结标准评测流程（定义→运行→评分→报告）和通用指标
+- 收录 LangSmith、OpenAI Evals 等评测平台信息
+- 分析当前趋势（FC 标准化、动态环境、安全评测崛起）与挑战（成本高、复现难、数据污染）
+- **新增概念页**：[[Knowledge/wiki/概念/AgentEval评估全景|Agent Eval 评估全景]]
+- 更新 wiki/index.md

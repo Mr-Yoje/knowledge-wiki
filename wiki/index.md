@@ -21,6 +21,7 @@ _（暂无）_
 
 - [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节|Mem0 架构与知识图谱技术细节]] — 从整体架构、记忆流程、知识图谱（Graph Memory）、去重机制、更新策略五大维度系统梳理 Mem0
 - [[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制|Mem0 的 Add 模式与冲突处理机制]] — 深入分析 add() 的 LLM 驱动去重逻辑、ADD/UPDATE/DELETE/NONE 四选一决策、什么时候该用 add 什么时候该用 update
+- [[Knowledge/wiki/概念/AgentEval评估全景|Agent Eval 评估全景]] — AI Agent 评估的 Benchmark、框架、通用指标、评测流程、关键趋势与挑战的系统梳理
 
 ## 综合
 

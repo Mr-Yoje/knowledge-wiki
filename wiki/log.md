@@ -28,3 +28,27 @@
 
 - [ ] 补充 PPO 概念页
 - [ ] 补充 RLHF 和 Agent RL 的对比页
+
+## 2026-07-23｜Ontology 本体论专题导入
+
+### Palantir Ontology 调研
+
+从 Palantir 官方文档（Overview、Why Ontology、Core Concepts）提取核心内容，完成 Ontology 本体论专题调研。
+
+- 新增综合页：
+  - [[Knowledge/wiki/综合/Ontology 本体论专题全景]]
+- 新增概念页：
+  - [[Knowledge/wiki/概念/Ontology 决策四要素]]
+  - [[Knowledge/wiki/概念/Ontology 数据体系]]
+  - [[Knowledge/wiki/概念/Ontology 与 AI Agent 的关系]]
+- 新增资料页：
+  - [[Knowledge/wiki/资料/Palantir Ontology Overview]]
+  - [[Knowledge/wiki/资料/Palantir Why Ontology]]
+  - [[Knowledge/wiki/资料/Palantir Core Concepts]]
+
+关键结论：Palantir Ontology 是决策中心（decision-centric）的运营层，核心四要素为 Data、Logic、Action、Security。在 AI Agent 时代，Ontology 提供了比 RAG 更丰富的上下文，Agent 可以通过 Ontology 驱动的工具安全地查询、推理和行动。
+
+## 待办 / 后续方向
+
+- [ ] 对比 Ontology 与传统知识图谱
+- [ ] Ontology 与 GraphRAG 的关系

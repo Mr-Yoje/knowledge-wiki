@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "GRPO 训练会踩的坑合集"
+source_file: ""
 source_file: "小红书笔记"
 url: "https://www.xiaohongshu.com/discovery/item/6a4f7ea50000000008003c47"
 created: 2026-07-23

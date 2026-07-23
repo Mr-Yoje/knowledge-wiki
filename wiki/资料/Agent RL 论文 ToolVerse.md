@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "ToolVerse: Unlocking Massive Environments for Agentic RL"
+source_file: ""
 author: "Shuaiyu Zhou, Fengpeng Yue, Zengjie Hu, et al."
 url: "https://arxiv.org/abs/2607.15660"
 created: 2026-07-23

@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "Why Multi-Step Tool-Use Reinforcement Learning Collapses"
+source_file: ""
 author: "Yupu Hao, Zhuoran Jin, Huanxuan Liao, et al."
 url: "https://arxiv.org/abs/2606.26027"
 created: 2026-07-23

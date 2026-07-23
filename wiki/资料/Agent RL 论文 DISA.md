@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "DISA: Offline Importance Sampling for Distribution-Matching LLM-RL"
+source_file: ""
 author: "Shaobo Wang, Yujie Chen, Yafeng Sun, et al."
 url: "https://arxiv.org/abs/2605.17295"
 created: 2026-07-23

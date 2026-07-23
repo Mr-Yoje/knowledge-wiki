@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "Polar: Agentic RL on Any Harness at Scale"
+source_file: ""
 author: "Binfeng Xu, Hao Zhang, Shaokun Zhang, et al."
 url: "https://arxiv.org/abs/2605.24220"
 created: 2026-07-23

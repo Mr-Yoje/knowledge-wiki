@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis"
+source_file: ""
 author: "Minrui Xu, Zilin Wang, Mengyi Deng, et al."
 url: "https://arxiv.org/abs/2605.18703"
 created: 2026-07-23

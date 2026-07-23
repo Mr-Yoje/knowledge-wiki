@@ -2,6 +2,7 @@
 type: source
 tags: [source-summary, AgentRL]
 source_name: "TAO-RL: Tool-Aware Optimization with Entropy Guidance"
+source_file: ""
 author: "Hongye Cao, Nuo Yan, Haoyuan Deng, et al."
 url: "https://arxiv.org/abs/2606.03762"
 created: 2026-07-23

@@ -1,8 +1,8 @@
 ---
-type: concept
-tags: [concept, agent-eval, benchmark, evaluation]
+type: guide
+tags: [guide, agent-eval, benchmark, evaluation, survey]
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-24
 status: evolving
 ---
 

@@ -11,6 +11,7 @@
 - [[Knowledge/wiki/综合/Agent RL 强化学习全景]] — Agent RL 领域全景概览
 - [[Knowledge/wiki/综合/Agent RL 实战经验]] — 冒烟检查、监控指标、踩坑排查经验
 - [[Knowledge/wiki/综合/Ontology 本体论专题全景]] — Ontology 概念、Panlantir 实践、AI 时代意义
+- [[Knowledge/wiki/综合/AgentEval评估全景]] — 框架/Benchmark/维度/指标/评测流水线全览
 
 ## 概念
 
@@ -20,6 +21,14 @@
 - [[Knowledge/wiki/概念/Ontology 决策四要素]] — Data, Logic, Action, Security
 - [[Knowledge/wiki/概念/Ontology 数据体系]] — 对象、链接、属性、值类型、接口
 - [[Knowledge/wiki/概念/Ontology 与 AI Agent 的关系]] — Ontology 如何赋能 AI Agent
+
+## 对比
+
+*(暂无)*
+
+## 查询
+
+*(暂无)*
 
 ## 资料
 
@@ -33,11 +42,4 @@
 - [[Knowledge/wiki/资料/Palantir Ontology Overview]] — Palantir Ontology 文档概览
 - [[Knowledge/wiki/资料/Palantir Why Ontology]] — 为什么需要 Ontology（决策四要素）
 - [[Knowledge/wiki/资料/Palantir Core Concepts]] — Ontology 核心概念参考
-
-## 对比
-
-*(暂无)*
-
-## 查询
-
-*(暂无)*
+- [[Knowledge/wiki/资料/AgentEval最佳实践]] — 从 Benchmark 到生产监控的完整落地指南

@@ -52,3 +52,11 @@
 
 - [ ] 对比 Ontology 与传统知识图谱
 - [ ] Ontology 与 GraphRAG 的关系
+
+## 2026-07-24｜AgentEval 页面位置修正
+
+将 [[Knowledge/wiki/概念/AgentEval评估全景]] 移至 [[Knowledge/wiki/综合/AgentEval评估全景]]（实操指南型内容，放在概念不合适）
+
+- 修改元数据：type: concept → type: guide
+- 更新 index.md：综合下新增条目，资料下新增 AgentEval最佳实践 链接
+- 配套页面 [[Knowledge/wiki/资料/AgentEval最佳实践]] 已在资料目录

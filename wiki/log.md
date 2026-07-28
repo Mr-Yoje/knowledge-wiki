@@ -60,3 +60,28 @@
 - 修改元数据：type: concept → type: guide
 - 更新 index.md：综合下新增条目，资料下新增 AgentEval最佳实践 链接
 - 配套页面 [[Knowledge/wiki/资料/AgentEval最佳实践]] 已在资料目录
+
+## 2026-07-28｜Agent Memory 框架调研
+
+### Agent Memory 框架全景
+
+完成三大 Agent Memory 框架（Mem0 / LangGraph / Letta Code）的深度调研。
+
+- 新增综合页：
+  - [[Knowledge/wiki/综合/Agent Memory框架全景]] — 三框架架构/原理/流程/对比矩阵
+- 新增资料页：
+  - [[Knowledge/wiki/资料/Trustcall]] — LangGraph 生态的 JSON Patch 精确记忆更新工具
+- 更新概念页：
+  - [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节]] — 补充 2026年4月新算法信息，增加与综合页的链接
+  - [[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制]] — 增加与综合页的链接
+- 关键结论：
+  1. ADD-only 优于 UPDATE 已成共识（Mem0 新算法 LoCoMo 92.5）
+  2. Letta Dreaming + LangGraph Background 表明后台学习是正确方向
+  3. 多信号检索（语义+BM25+实体+时间）正在替代纯向量检索
+  4. 记忆的可编辑性和版本化正在成为新刚需
+
+### 当前待办 / 后续方向
+
+- [ ] Agent Memory 框架对比页（在综合页基础上提取为独立对比页）
+- [ ] Mem0 新算法的原理更深挖（研究论文阅读）
+- [ ] Letta Code MemFS 的 git 操作层面深入分析

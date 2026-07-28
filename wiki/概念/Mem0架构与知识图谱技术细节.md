@@ -2,7 +2,7 @@
 type: concept
 tags: [concept, mem0, memory, knowledge-graph]
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-28
 status: evolving
 ---
 
@@ -176,5 +176,5 @@ Platform 中 `add()` 的默认行为：
 
 ## 相关页面
 
-- 待创建：LLM记忆层对比
-- 待创建：知识图谱构建方法
+- [[Knowledge/wiki/综合/Agent Memory框架全景|Agent Memory 框架全景]]
+- [[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制|Mem0 的 Add 模式与冲突处理机制]]

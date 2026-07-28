@@ -2,7 +2,7 @@
 type: concept
 tags: [concept, mem0, memory, add-mode, conflict-resolution]
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-28
 status: evolving
 ---
 
@@ -189,4 +189,4 @@ LLM 决策结果被解析为操作列表，依次执行：
 ## 相关页面
 
 - [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节|Mem0 架构与知识图谱技术细节]]
-- 待创建：Mem0 与 LLM Wiki 知识库对比
+- [[Knowledge/wiki/综合/Agent Memory框架全景|Agent Memory 框架全景]]

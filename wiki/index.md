@@ -27,7 +27,7 @@
 
 ## 对比
 
-*(暂无)*
+- [[Knowledge/wiki/对比/Cognee与Mem0对比]] — 图谱优先 vs 向量优先，核心哲学与选型指南
 
 ## 查询
 
@@ -47,3 +47,4 @@
 - [[Knowledge/wiki/资料/Palantir Core Concepts]] — Ontology 核心概念参考
 - [[Knowledge/wiki/资料/AgentEval最佳实践]] — 从 Benchmark 到生产监控的完整落地指南
 - [[Knowledge/wiki/资料/Trustcall]] — LangGraph 精确记忆更新的 JSON Patch 工具
+- [[Knowledge/wiki/资料/Cognee]] — 开源知识图谱记忆平台，29.5k ⭐

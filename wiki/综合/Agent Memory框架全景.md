@@ -1,6 +1,6 @@
 ---
 type: synthesis
-tags: [synthesis, agent-memory, mem0, langgraph, letta, memory-framework]
+tags: [synthesis, agent-memory, mem0, langgraph, letta, cognee, memory-framework]
 created: 2026-07-28
 updated: 2026-07-28
 status: evolving
@@ -8,7 +8,7 @@ status: evolving
 
 # Agent Memory 框架全景
 
-AI Agent 的长期记忆能力是 Agent 从"一次性工具"进化为"持续学习伙伴"的核心瓶颈。当前 Agent Memory 领域形成了三大流派：以 [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节|Mem0]] 为代表的**外挂记忆层**、以 LangGraph 为代表的**状态图引擎**、以 Letta Code（原 MemGPT）为代表的**自进化文件系统**。本文从架构、原理、流程三个维度深度分析各框架的设计取舍。
+AI Agent 的长期记忆能力是 Agent 从"一次性工具"进化为"持续学习伙伴"的核心瓶颈。当前 Agent Memory 领域形成了三大流派：以 [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节|Mem0]] 为代表的**外挂记忆层**、以 LangGraph 为代表的**状态图引擎**、以 Letta Code（原 MemGPT）为代表的**自进化文件系统**。此外，以 [[Knowledge/wiki/资料/Cognee|Cognee]] 为代表的**知识图谱优先派**正在崛起，形成第四极。本文从架构、原理、流程三个维度深度分析各框架的设计取舍。
 
 ## 核心判断
 
@@ -285,3 +285,4 @@ Dreaming 是 Letta Code 区别其他框架的关键创新：
 - [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节|Mem0 架构与知识图谱技术细节]]
 - [[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制|Mem0 的 Add 模式与冲突处理机制]]
 - [[Knowledge/wiki/资料/Trustcall]] — 用于 LangGraph 精确记忆更新的 JSON Patch 工具
+- [[Knowledge/wiki/资料/Cognee]] — Cognee 详细资料页 

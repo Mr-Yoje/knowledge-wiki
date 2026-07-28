@@ -85,3 +85,20 @@
 - [ ] Agent Memory 框架对比页（在综合页基础上提取为独立对比页）
 - [ ] Mem0 新算法的原理更深挖（研究论文阅读）
 - [ ] Letta Code MemFS 的 git 操作层面深入分析
+
+## 2026-07-28｜Cognee 深入调研与 Mem0 对比
+
+### Cognee 调研与对比页
+
+- 新增资料页：
+  - [[Knowledge/wiki/资料/Cognee]] — 三层架构、四大操作、Postgres 全能化、Improve 蒸馏机制
+- 新增对比页：
+  - [[Knowledge/wiki/对比/Cognee与Mem0对比]] — 8 维度对比表 + 选型指南 + 常见误区
+- 更新：
+  - [[Knowledge/wiki/综合/Agent Memory框架全景]] — 加入 Cognee 引用
+  - [[Knowledge/wiki/index.md]] — 新增对比分类、Cognee 资料页链接
+- 关键结论：
+  1. Cognee 以图谱为第一存储范式，与 Mem0 的多信号融合形成根本性路线差异
+  2. Postgres 全能化（关系+向量+图谱+缓存在一张 PG 上）是 Cognee 1.0 的关键差异化
+  3. Cognee 适合关系推理场景，Mem0 适合精准事实召回场景
+  4. 向量优先派（Mem0） vs 图谱优先派（Cognee）的分化正在加速

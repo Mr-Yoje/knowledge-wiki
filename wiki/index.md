@@ -48,3 +48,4 @@
 - [[Knowledge/wiki/资料/AgentEval最佳实践]] — 从 Benchmark 到生产监控的完整落地指南
 - [[Knowledge/wiki/资料/Trustcall]] — LangGraph 精确记忆更新的 JSON Patch 工具
 - [[Knowledge/wiki/资料/Cognee]] — 开源知识图谱记忆平台，29.5k ⭐
+- [[Knowledge/wiki/资料/Pi Coding Agent]] — 极简 Agent Harness，原语而非功能

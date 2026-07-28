@@ -102,3 +102,16 @@
   2. Postgres 全能化（关系+向量+图谱+缓存在一张 PG 上）是 Cognee 1.0 的关键差异化
   3. Cognee 适合关系推理场景，Mem0 适合精准事实召回场景
   4. 向量优先派（Mem0） vs 图谱优先派（Cognee）的分化正在加速
+
+## 2026-07-28｜Pi Coding Agent 深度调研
+
+### Pi 架构与设计原理
+
+- 新增资料页：
+  - [[Knowledge/wiki/资料/Pi Coding Agent]] — 四层架构、Agent 循环、树形会话、Compaction、Extension 系统、极简主义设计哲学
+- 更新：
+  - [[Knowledge/wiki/index.md]] — 新增 Pi Coding Agent 资料页链接
+- 关键结论：
+  1. Pi 的核心理念是"原语而非功能"——极小内核 + TypeScript Extension 系统，与 Claude Code / Cursor 的"内置所有功能"形成鲜明对比
+  2. 树形会话（单 JSONL 文件多分支）是 Pi 区别于所有其他 Agent 框架的独特设计
+  3. Pi 是 OpenClaw 的 Agent 运行时内核（SDK 模式嵌入）

@@ -132,3 +132,22 @@
   - 增加第 6 个可沉淀知识点：供应安全实践
   - 丰富相关来源链接（npm 包、Discord、pi-chat 等）
 - 状态从 initialized 提升为 active
+
+## 2026-07-29｜Agent Sandbox 技术全景调研
+
+- 新增资料页：
+  - [[Knowledge/wiki/资料/Agent Sandbox技术全景]] — 从容器隔离到 Agent 运行沙箱的完整技术脉络
+- 更新：
+  - [[Knowledge/wiki/index.md]] — 新增 Agent Sandbox 资料页链接
+- 调研覆盖：
+  1. 隔离技术三层次：Namespace（Docker）→ App Kernel（gVisor）→ microVM（Firecracker）对比
+  2. 各层的逃逸难度、启动速度、资源开销、适用场景
+  3. 专用 Agent 沙箱服务：E2B（基于 Firecracker，专为 Agent 设计）和 Modal Sandbox
+  4. Agent 框架中的沙箱实践：OpenClaw/Gondolin、Pi 的三种容器化模式、Claude Code 内置权限弹窗
+  5. 5 阶段演进脉络（2013→2025+）：传统容器→轻量VM/AppKernel→Agent工具安全→专用沙箱服务→Agent原生沙箱
+  6. 10 个产品/技术的完整对比表
+- 关键结论：
+  1. 隔离等级与便捷性成反比
+  2. Agent 沙箱正在从依赖 Agent 行为约束向基础设施层强制隔离演进
+  3. 云沙箱（E2B）和本地沙箱（Gondolin）互补而非替代
+  4. OpenClaw 的升级路径：Gondolin 提供最自然的逐步引入隔离方式

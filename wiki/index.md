@@ -49,3 +49,4 @@
 - [[Knowledge/wiki/资料/Trustcall]] — LangGraph 精确记忆更新的 JSON Patch 工具
 - [[Knowledge/wiki/资料/Cognee]] — 开源知识图谱记忆平台，29.5k ⭐
 - [[Knowledge/wiki/资料/Pi Coding Agent]] — 极简 Agent Harness，原语而非功能
+- [[Knowledge/wiki/资料/Agent Sandbox技术全景]] — 从容器隔离到 Agent 运行沙箱，gVisor/Firecracker/E2B/Gondolin 全览

@@ -151,3 +151,18 @@
   2. Agent 沙箱正在从依赖 Agent 行为约束向基础设施层强制隔离演进
   3. 云沙箱（E2B）和本地沙箱（Gondolin）互补而非替代
   4. OpenClaw 的升级路径：Gondolin 提供最自然的逐步引入隔离方式
+
+## 2026-07-29｜Cognee 技术原理深度调研
+
+- 重写资料页：
+  - [[Knowledge/wiki/资料/Cognee]] — 从概述页全面升级为技术原理深度文档
+- 新增/大幅扩充内容：
+  1. **核心架构**：三层存储（Relational/Vector/Graph）的职责分工和默认后端，Postgres 全能模式，Rust 端 crate 架构
+  2. **四大核心操作**：remember（永久 vs 会话两种模式、Loader 生态）、recall（自动路由引擎+15 种 SearchType）、improve（9 阶段自改进链条）、forget（三级粒度）
+  3. **图谱构建流水线**：cognify pipeline 完整步骤、Pipeline 运行机制（分层执行/串行化/可恢复/缓存控制）
+  4. **检索策略体系**：15 种 SearchType 完整列表和说明
+  5. **自改进机制**：反馈权重系统 + 会话蒸馏（curator/writer/rejecter 三级评估）+ Truth-Subspace Reranking（几何锚点+混合排序）
+  6. **条件工程**：Global Context Index 机制（数据集级世界摘要）
+  7. **多用户与权限体系**：Dataset/User/Tenant/Role/ACL + Dataset Database Handler 独立后端模式
+- 更新可沉淀知识点为 6 条，新增 Truth-Subspace 和多架构洞察
+- 状态从 initialized 提升为 active

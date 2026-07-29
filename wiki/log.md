@@ -115,3 +115,20 @@
   1. Pi 的核心理念是"原语而非功能"——极小内核 + TypeScript Extension 系统，与 Claude Code / Cursor 的"内置所有功能"形成鲜明对比
   2. 树形会话（单 JSONL 文件多分支）是 Pi 区别于所有其他 Agent 框架的独特设计
   3. Pi 是 OpenClaw 的 Agent 运行时内核（SDK 模式嵌入）
+
+## 2026-07-29｜Pi Coding Agent 资料页补充
+
+- 补充详情：
+  - 补齐五种使用模式（新增 Ephemeral 模式）
+  - 补充会话命令完整列表（/tree /fork /clone /share /export /resume /new /session /name）
+  - 详细区分 tree/fork/clone 的差异对比表
+  - 添加 resume 选择器快捷键和 tree 视图控制快捷键
+  - 补充 Compaction 的可视化流程 ASCII 图
+  - 扩展 Extension 系统细节（完整事件生命周期表 + Extension API 方法清单 + ExtensionContext 对象）
+  - 补充 Skills 系统的完整加载位置和 SKILL.md 结构模板
+  - 新增安装方式、安全与容器化、供应安全三个章节
+  - 补充与其他 Agent 框架（Claude Code / Cursor）的详细对比表
+  - 深入解读 No MCP 设计立场（CLI + README 就是天然 MCP）
+  - 增加第 6 个可沉淀知识点：供应安全实践
+  - 丰富相关来源链接（npm 包、Discord、pi-chat 等）
+- 状态从 initialized 提升为 active

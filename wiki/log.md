@@ -181,3 +181,16 @@
   - 完整场景示例：Git clone → 修复 bug → PR → 清理的全链路六子系统协作
   - 配置总纲：完整的沙箱 JSON 配置示例
   - 五大维度一句话总结表
+
+## 2026-08-08｜LightRAG 图谱机制深度调研
+
+### 主题：LightRAG 图谱构建 · 动态更新 · 冲突处理
+
+- 新增概念页：[[Knowledge/wiki/概念/LightRAG架构与图谱机制]] — 基于论文 v3 与 HKUDS 仓库源码（operate.py/prompt.py/lightrag.py）核实三大机制
+- 新增资料页：[[Knowledge/wiki/资料/LightRAG]] — arXiv:2410.05779 论文 + 官方仓库
+- 关键结论：
+  1. 图谱构建 = 抽取 Recog → Profiling(实体名唯一键/关系多键) → 去重(实体名归一化)
+  2. 动态更新 = 同管道增量合并 + write-ahead 恢复锚点(Phase 0 full_entities/full_relations) + 文档删除/图谱再生
+  3. 冲突处理 = 多描述 map-reduce 融合，summarize prompt 第6条显式规则：同名不同实体各自成段、单实体内部冲突调和或并列标注不确定
+  4. 关系边权重 = 独立来源计数(防重复累加)
+- 状态：active

@@ -24,6 +24,7 @@
 - [[Knowledge/wiki/概念/Ontology 与 AI Agent 的关系]] — Ontology 如何赋能 AI Agent
 - [[Knowledge/wiki/概念/Mem0架构与知识图谱技术细节]] — Mem0 三层存储、多信号检索、图谱实现
 - [[Knowledge/wiki/概念/Mem0的Add模式与冲突处理机制]] — Mem0 ADD-only 默认策略与冲突检测
+- [[Knowledge/wiki/概念/LightRAG架构与图谱机制]] — LightRAG 图谱构建/动态更新/冲突处理三大机制源码级拆解
 
 ## 对比
 
@@ -48,5 +49,6 @@
 - [[Knowledge/wiki/资料/AgentEval最佳实践]] — 从 Benchmark 到生产监控的完整落地指南
 - [[Knowledge/wiki/资料/Trustcall]] — LangGraph 精确记忆更新的 JSON Patch 工具
 - [[Knowledge/wiki/资料/Cognee]] — 开源知识图谱记忆平台，29.5k ⭐
+- [[Knowledge/wiki/资料/LightRAG]] — 图结构 RAG 框架（arXiv:2410.05779），双层检索 + 增量更新
 - [[Knowledge/wiki/资料/Pi Coding Agent]] — 极简 Agent Harness，原语而非功能
 - [[Knowledge/wiki/资料/Agent Sandbox技术全景]] — 从容器隔离到 Agent 运行沙箱，gVisor/Firecracker/E2B/Gondolin 全览
